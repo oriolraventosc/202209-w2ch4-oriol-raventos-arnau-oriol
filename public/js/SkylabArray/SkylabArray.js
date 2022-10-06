@@ -1,9 +1,12 @@
 class SkylabArray {
   values;
 
-  constructor(values) {
-    for (let index = 0; index < values.length; index++);
-  }
+arrayCreation(...args) {
+  console.log(args)
+  return args;
+}
+arrayCreation(1, 2, 3, 4);
+
 }
 
 export default SkylabArray;
