@@ -1,8 +1,9 @@
 class SkylabArray {
-  values;
+  array;
+  length;
 
-  constructor(values) {
-    for (let index = 0; index < values.length; index++);
+  constructor(...args) {
+    this.array = args;
   }
 }
 
