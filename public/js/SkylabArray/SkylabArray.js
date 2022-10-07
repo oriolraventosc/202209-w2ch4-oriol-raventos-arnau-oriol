@@ -1,19 +1,14 @@
-class SkylabArray {
-  array;
-  length;
+export class SkylabArray {
+  arrayLength;
 
-<<<<<<< HEAD
-arrayCreation(...args) {
-  console.log(args)
-  return args;
-}
-arrayCreation(1, 2, 3, 4);
-
-=======
-  constructor(...args) {
-    this.array = args;
+  static checkLength() {
+    let count = 0;
+    for (const element of Object.keys(this.arrayLength)) {
+      ++count;
+    }
+    const message = `The length of the array is ${count}`;
+    return message;
   }
->>>>>>> master
 }
 
 export default SkylabArray;
