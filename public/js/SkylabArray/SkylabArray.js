@@ -1,8 +1,17 @@
-class SkylabArray {
-  values;
+export class SkylabArray {
+  arrayLength;
 
-  constructor(values) {
-    for (let index = 0; index < values.length; index++);
+  constructor(arrayLength) {
+    arrayLength;
+  }
+
+  static checkLength() {
+    let count = 0;
+    for (const element of Object.keys(this.arrayLength)) {
+      ++count;
+    }
+    const message = `The length of the array is ${count}`;
+    return message;
   }
 }
 
