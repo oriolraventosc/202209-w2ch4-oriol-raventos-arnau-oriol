@@ -1,3 +1,5 @@
-import SkylabArray from "./SkylabArray/SkylabArray";
+import { SkylabArray } from "./SkylabArray";
 
-const numbers = new SkylabArray(3, 8, 10, 2);
+const numbers = SkylabArray([3, 8, 10, 2]);
+
+console.log(numbers);
